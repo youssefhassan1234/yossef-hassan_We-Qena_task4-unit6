@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    line-height: 1.6;
+}
+
+.nav-item{
+    margin: 0px 20px;
+}
+
+.nav-list{
+    margin-left: 500px;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #1edb38;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active{
+    color: red;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: #f9f9f9;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.navbar-expand-lg .navbar-nav a.active {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+    color: #fa0202;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.me-2 {
+    margin-right: .5rem !important;
+}
+.nav-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    width: 100%;
+    background-color: #3358ff82;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+
+.section-title {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.service-card {
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.service-card a {
+    margin-top: 15px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #5233ff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: all 0.3s;
+}
+
+.service-card a:hover {
+    background-color: #4b33ff;
+    color: #ed0f0f;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.product-categories {
+    background-color: #5233ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.product-categories a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-section {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.contact-section a {
+    color: #ff7043;
+    text-decoration: none;
+}
+.latest-news, .customer-services {
+    padding: 20px;
+}
+.news-item, .service-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+  }
+  
+  .project {
+    position: relative;
+    padding: 40px;
+    border-radius: 12px;
+    transition: 1s;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 1s;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 0%;
+    border-radius: 12px;
+    background: linear-gradient(rgba(255, 217, 0, 0.502), #3a25c4);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+    transition: height 1s;
+  }
+  
+  .layer h2 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(38, 0, 255);
+    margin-bottom: 10px;
+  }
+  
+  .layer p {
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .layer a {
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+
+    color: #d0ff00;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: #3a25c468;
+    width: 100px;
+    height: 60px;
+    border-radius: 30%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project:hover img {
+    transform: scale(1.1);
+  }
+  
+  .project:hover .layer {
+    height: 100%;
+  }
+  
+
+
+.footer {
+    margin: 30px;
+    border: 2px solid #ff7043;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer h6{
+    font-size: 25px;
+    font-weight: bold; 
+    margin: 10px 0px;
+}
